@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif,helvetica;
+    font-size: 85%;
+    background: black;
+    
+}
+
+
+header {
+    width: 400px;
+    position: fixed;
+    right: 50%;
+    transform: translateX(50%);
+    display: flex;
+    background-color: black;
+    padding: 8px;
+
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    }
+    
+    .logo img{
+        margin-left: 5px;
+        height: 65px;
+        width: 95px;
+    }
+
+    nav a (bonelesyalitas){
+
+    }
+nav a{
+    text-align: center;
+    margin-top: 10px;
+  margin-left: 8px;
+  justify-content: center;
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+    padding: 3px;
+    border-radius: 3px;
+}
+
+nav a{
+    background-color: rgba(235, 0, 0, 0.795);
+}
+
+nav a:hover{
+    background-color: rgb(173, 0, 0);
+    color: white;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section [id] {
+    scroll-margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#bienvenidos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#Sushi{
+    scroll-margin-top: 75px;
+    margin-top: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#Hamburguesa{
+    scroll-margin-top: 75px;
+    margin-top: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#Bonelessyalitas{
+    scroll-margin-top: 75px;
+    margin-top: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#paquetes{
+    scroll-margin-top: 70px;
+    margin-top: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#Promos{
+  scroll-margin-top: 70px;
+  margin-top: 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+  
